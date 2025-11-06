@@ -8,5 +8,6 @@
 import SwiftUI
 
 public protocol RoutableFeature {
-    static var routes: [String: any View] { get }
+    static var routes: [String: AnyView] { get }
 }
+
